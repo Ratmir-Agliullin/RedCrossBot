@@ -40,7 +40,7 @@ private int flag=0;
             Parser parser = new Parser();
             Document doc = null;
             try {
-                doc = Jsoup.connect("https://vk.com/unwebsiteinrussian").get();
+                doc = Jsoup.connect("https://vk.com/icrc_rus").get();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -66,12 +66,12 @@ private int flag=0;
 
     @Override
     public String getBotUsername() {
-        return "Bot2";
+        return "RedCrossChannelManager";
     }
 
     @Override
     public String getBotToken() {
-        return "367015082:AAHDEcfBder_4Z_oY5LWygwa3qtJlWhzE28";
+        return "448184701:AAESB3gQ616IDkudJlbi6kcVR14wFLwSwMM";
     }
 
     public void SendText(String chat_id,  String out){

@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
  * Created by Аглиуллины on 03.09.2017.
  */
 public class Parser {
-    private String bufferFilePath = "/home/ratmir/buffer.dat";
+    private String bufferFilePath = "/home/ratmir/RedCrossBot/files/buffer.dat";
     public Integer likesCount = 0;
     public Integer repostCount = 0;
 
