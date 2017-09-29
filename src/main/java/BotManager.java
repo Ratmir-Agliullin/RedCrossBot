@@ -17,7 +17,7 @@ import java.io.Serializable;
  */
 public class BotManager extends TelegramLongPollingBot {
 private String buffer=null;
-private String CHANNEL_NAME="@channel1ByRadrigo";
+private String CHANNEL_NAME="@RedCrossChannel";
 private int flag=0;
     @Override
     public void onUpdateReceived(Update update) {
